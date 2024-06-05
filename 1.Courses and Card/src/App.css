@@ -1,0 +1,11 @@
+.app_container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
