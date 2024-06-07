@@ -1,0 +1,25 @@
+.imagesList {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px; */
+  columns: 260px 5;
+  column-gap: 20px;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.formDiv input {
+  width: 250px;
+  padding: 15px;
+  border: 1px solid red;
+  border-radius: 10px;
+  outline: hidden;
+  font-size: 1.2rem;
+}
