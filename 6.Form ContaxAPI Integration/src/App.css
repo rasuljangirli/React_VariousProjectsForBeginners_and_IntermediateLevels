@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+.formUpdate {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.formLabel {
+  margin: 10px 0;
+}
+
+.formInput {
+  padding: 13px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 35, 228);
+  outline: none;
+}
+
+.formButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(116, 198, 198);
+  font-size: 1.2rem;
+  border: none;
+}
+
+.formButton:hover {
+  cursor: pointer;
+}
+
+.listsTodoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.todoItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border: 1px solid red;
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.todoItemContainerBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.todoItemContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoItemBtn {
+  padding: 6px 27px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background-color: rgb(39, 207, 233);
+  cursor: pointer;
+}
