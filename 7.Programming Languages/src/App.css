@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.containerLanguage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+  flex-wrap: wrap-reverse;
+}
+
+.languageItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: dashed red 1px;
+  width: 320px;
+}
+
+.btn {
+  padding: 4px 9px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: rgb(63, 63, 81);
+  color: #fff;
+}
+
+.loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
