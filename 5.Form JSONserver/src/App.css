@@ -10,11 +10,13 @@
   flex-direction: column;
   width: 450px;
 }
+
 .formUpdate {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
+
 .formLabel {
   margin: 10px 0;
 }
