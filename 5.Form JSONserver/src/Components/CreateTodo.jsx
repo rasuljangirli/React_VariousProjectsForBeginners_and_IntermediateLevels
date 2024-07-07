@@ -12,7 +12,6 @@ function CreateTodo({ onCreate, task, taskFormUpdate, onUpdate }) {
   const handelTaskDescChange = (e) => {
     setTaskDesc(e.target.value);
   };
-
   const alertString =
     "Either the title or the description part is empty, please write the information in full form";
 
