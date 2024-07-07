@@ -4,7 +4,6 @@ import { useState } from "react";
 function CreateTodo({ onCreate, task, taskFormUpdate, onUpdate }) {
   const [title, setTitle] = useState(task ? task.title : "");
   const [taskDesc, setTaskDesc] = useState(task ? task.taskDesc : "");
-
   const handelChange = (e) => {
     setTitle(e.target.value);
   };
