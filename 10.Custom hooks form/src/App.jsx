@@ -14,7 +14,6 @@ function App() {
     resetFirstName();
     resetLastName();
   };
-
   return (
     <div>
       <form onSubmit={showAlert} action="">
