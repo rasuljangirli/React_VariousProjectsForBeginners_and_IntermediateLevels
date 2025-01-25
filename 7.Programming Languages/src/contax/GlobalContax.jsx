@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 import axios from "axios";
 
 export const GlobalContex = createContext();
-//!
+
 export const GlobalContaxProvider = (props) => {
   const [languages, setLanguages] = useState([]);
   const [loading, setLoading] = useState(false);
