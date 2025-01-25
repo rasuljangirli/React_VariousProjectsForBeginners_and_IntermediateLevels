@@ -1,4 +1,5 @@
 ## React proyektləri
+---
 
 Youtube kanalımda dərs videolarından yararlanmaq üçün [klikləyin](https://www.youtube.com/@rasul_jangirli).
 
