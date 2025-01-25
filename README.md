@@ -51,7 +51,7 @@ Bu repomda bir çox fərqli mövzuya müraciət edən müxtəlif proyektlər mö
 
 ### PROYEKTLƏR HAQQINDA MƏLUMAT:
 
-- ### Bədən Kütlə Indeksi - filename: `bodyMassIndex`
+- ###  - filename: `ffff`
 
 ---
 
