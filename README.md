@@ -1,10 +1,10 @@
 ## React proyektləri
 
-    Youtube kanalımda dərs videolarından yararlanmaq üçün [klikləyin](https://www.youtube.com/@rasul_jangirli).
+Youtube kanalımda dərs videolarından yararlanmaq üçün [klikləyin](https://www.youtube.com/@rasul_jangirli).
 
-    Medium hesabımda məqalələrimlə tanış olmaq üçün [klikləyin](https://medium.com/@rasuljangirli).
+Medium hesabımda məqalələrimlə tanış olmaq üçün [klikləyin](https://medium.com/@rasuljangirli).
 
-    Bu repomda bir çox fərqli mövzuya müraciət edən müxtəlif proyektlər mövcuddur. Bəzi proyektlərdə dataların gətirilməsini simulyasiya etmək üçün `JSON Server`-dən istifadə edilmişdir. Bunun quraşdırılması üçün aşağıdakı addımları izləyə bilərsiniz:
+Bu repomda bir çox fərqli mövzuya müraciət edən müxtəlif proyektlər mövcuddur. Bəzi proyektlərdə dataların gətirilməsini simulyasiya etmək üçün `JSON Server`-dən istifadə edilmişdir. Bunun quraşdırılması üçün aşağıdakı addımları izləyə bilərsiniz:
 
 -    ### JSON Server Quraşdırılması və lahiyəni ayağa qaldırmaq
 
