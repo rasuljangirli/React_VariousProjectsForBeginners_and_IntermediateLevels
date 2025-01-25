@@ -1,16 +1,12 @@
-## React proyektləri
+### React proyektləri
 
 Youtube kanalımda dərs videolarından yararlanmaq üçün [klikləyin](https://www.youtube.com/@rasul_jangirli).
 
 Medium hesabımda məqalələrimlə tanış olmaq üçün [klikləyin](https://medium.com/@rasuljangirli).
 
-Bu repoda bir çox fərqli mövzuya müraciət edən müxtəlif proyektlər mövcuddur. Bəzi proyektlərdə dataların gətirilməsini simulyasiya etmək üçün `JSON Server`-dən istifadə edilmişdir. Bunun quraşdırılması üçün aşağıdakı addımları izləyə bilərsiniz:
+Bu repomda bir çox fərqli mövzuya müraciət edən müxtəlif proyektlər mövcuddur. Bəzi proyektlərdə dataların gətirilməsini simulyasiya etmək üçün `JSON Server`-dən istifadə edilmişdir. Bunun quraşdırılması üçün aşağıdakı addımları izləyə bilərsiniz:
 
-### JSON Server Quraşdırılması
-
-    Bu repoda bir çox fərqli mövzuya müraciət edən müxtəlif react proyektlər mövcuddur. Bəzi proyektlərdə dataların `back-end`-dən gətirilməsini simulyasiya etmək üçün **JSON Server**-dən istifadə edilmişdir. Bunun quraşdırılması üçün aşağıdakı addımları izləyə bilərsiniz:
-
-- ## JSON Server Quraşdırılması
+## JSON Server Quraşdırılması və lahiyəni ayağa qaldırmaq
 
     Bu əməliyyat json serveri global olaraq compyuterinizə quracaq.
     
@@ -29,7 +25,7 @@ Bu repoda bir çox fərqli mövzuya müraciət edən müxtəlif proyektlər möv
 
     Bu əmrlər icra olunduqdan sonra isə proyektə lazım olan node modulları yüklənməlidir.
 
-   ```bash
+    ```bash
         npm install
     ```
     əmrini icra edərək bu modulları proyektə əlavə edə bilərsiniz. (yarn v.s kimi texnologiyalardanda mümkündür);
@@ -37,13 +33,13 @@ Bu repoda bir çox fərqli mövzuya müraciət edən müxtəlif proyektlər möv
     Sonra isə JSON serveri işə salmaq üçün aşağıdakı komandanı icra edin:
 
     ```bash
-    json-server --watch db.json --port 3000
+        json-server --watch db.json --port 3000
     ```
     burada fərqli port seçə bilərsiniz.
 
     Daha sonra isə proyekti ayağa qaldırmaq üçün 
 
-    ``bash
+    ```bash
         npm run dev 
     ```
     əmrini icra edin.
