@@ -31,7 +31,7 @@ Bu repomda bir çox fərqli mövzuya müraciət edən müxtəlif proyektlər mö
         ```
         əmrini icra edərək bu modulları proyektə əlavə edə bilərsiniz. (yarn v.s kimi texnologiyalardanda mümkündür);
 
-        Sonra isə JSON serveri işə salmaq üçün aşağıdakı komandanı icra edin:
+        Sonra isə JSON serveri işə salmaq üçün aşağıdakı əmri icra edin:
 
         ```bash
             json-server --watch db.json --port 3000
